@@ -10,16 +10,5 @@ spec:
   lifecycle: production
   owner: endjin
   system: marain
-  definition: |
-    openapi: "3.0.0"
-    info:
-      version: 1.0.0
-      title: Placeholder Tenancy API spec
-      license:
-        name: MIT
-    servers:
-      - url: http://tenancy.marain.io/v1
-    paths:
-      /tenants:
-        get:
-          summary: List all tenants
+  definition: 
+    $text: https://raw.githubusercontent.com/marain-dotnet/Marain.Tenancy/main/Solutions/Marain.Tenancy.OpenApi.Service/Marain/Tenancy/OpenApi/TenancyServices.yaml
