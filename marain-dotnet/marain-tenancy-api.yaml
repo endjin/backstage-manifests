@@ -11,4 +11,4 @@ spec:
   owner: endjin
   system: marain
   definition: 
-    $text: https://raw.githubusercontent.com/marain-dotnet/Marain.Tenancy/main/Solutions/Marain.Tenancy.OpenApi.Service/Marain/Tenancy/OpenApi/TenancyServices.yaml
+    $text: https://github.com/marain-dotnet/Marain.Tenancy/blob/main/Solutions/Marain.Tenancy.OpenApi.Service/Marain/Tenancy/OpenApi/TenancyServices.yaml
