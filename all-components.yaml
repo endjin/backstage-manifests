@@ -5,5 +5,5 @@ metadata:
   description: A collection of all endjin components
 spec:
   targets:
-    - ./corvus-dotnet/corvus-test-component.yaml
+    - ./corvus-dotnet/corvus-testing-component.yaml
     - ./marain-dotnet/marain-tenancy-component.yaml
