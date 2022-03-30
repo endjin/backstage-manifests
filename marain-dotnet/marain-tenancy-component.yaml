@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: marain-tenancy
+  description: API to support Tenancy in Marain.
+  annotations:
+    github.com/project-slug: 'marain-dotnet/marain.tenancy'
+  links: []
+spec:
+  type: service
+  lifecycle: production
+  owner: endjin
+  system: marain
+  dependsOn:
+  - component:corvus-testing
+  providesApis:
+  - marain-tenancy-api

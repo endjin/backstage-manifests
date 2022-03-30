@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: corvus-testing
+  description: Provides a library of useful testing extensions, primarily focussed on SpecFlow operations.
+  annotations:
+    github.com/project-slug: 'corvus-dotnet/corvus.testing'
+  links:
+  - url: https://endjin.com/blog/2020/09/streamline-dependency-management-with-nuget-meta-packages.html
+    title: Meta Packages
+spec:
+  type: library
+  lifecycle: production
+  owner: endjin
+  system: corvus
+  dependsOn: []
+  providesApis: []

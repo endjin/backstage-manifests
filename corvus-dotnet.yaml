@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: corvus-components
+  description: A collection of all Corvus components
+spec:
+  targets:
+    - ./corvus-dotnet/corvus-testing-component.yaml
