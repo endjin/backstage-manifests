@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: components
+  description: A collection of all endjin components
+spec:
+  targets:
+    - ./corvus-dotnet/corvus-test-component.yaml
+    - ./marain-dotnet/marain-tenancy-component.yaml

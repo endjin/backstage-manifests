@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: marain-components
-  description: A collection of all Marain components
-spec:
-  targets:
-    - ./marain-dotnet/marain-tenancy-component.yaml
-    - ./marain-dotnet/marain-tenancy-api.yaml
