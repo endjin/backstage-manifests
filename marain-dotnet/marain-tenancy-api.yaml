@@ -3,6 +3,8 @@ kind: API
 metadata:
   name: marain-tenancy
   description: Marain Tenancy
+  annotations:
+    github.com/project-slug: 'marain-dotnet/marain.tenancy'
 spec:
   type: openapi
   lifecycle: production
@@ -12,12 +14,12 @@ spec:
     openapi: "3.0.0"
     info:
       version: 1.0.0
-      title: Artist API
+      title: Placeholder Tenancy API spec
       license:
         name: MIT
     servers:
-      - url: http://artist.spotify.net/v1
+      - url: http://tenancy.marain.io/v1
     paths:
-      /artists:
+      /tenants:
         get:
-          summary: List all artists
+          summary: List all tenants
