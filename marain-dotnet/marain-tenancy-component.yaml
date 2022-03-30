@@ -14,4 +14,4 @@ spec:
   dependsOn:
   - component:corvus-testing
   providesApis:
-  - marain-tenancy-api
+  - marain-tenancy
