@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: endjin-githubactions
+  description: Provides a PowerShell module with functionality to allow scripts to integrate with GitHub Actions.
+  annotations:
+    github.com/project-slug: 'endjin/endjin.githubactions.powershell'
+  links: []
+spec:
+  type: library
+  lifecycle: production
+  owner: endjin
+  system: powershell
+  dependsOn: []
+  providesApis: []

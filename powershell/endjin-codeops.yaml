@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: endjin-codeops
+  description: Provides a PowerShell module with functionality to support automation of GitHub repository maintenance tasks.
+  annotations:
+    github.com/project-slug: 'endjin/endjin-codeops'
+  links:
+  - https://endjin.com/blog/2020/11/does-your-github-repo-need-code-operations.html
+spec:
+  type: library
+  lifecycle: production
+  owner: endjin
+  system: powershell
+  dependsOn: []
+  providesApis: []

@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: powershell
+  description: A collection of all endjin PowerShell modules
+spec:
+  targets:
+    - ./powershell/corvus-deployment.yaml
+    - ./powershell/endjin-codeops.yaml
+    - ./powershell/endjin-githubactions.yaml
+    - ./powershell/endjin-mdp.yaml

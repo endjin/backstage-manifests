@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: corvus-deployment
+  description: Provides a PowerShell module with functionality to support deployment automation.
+  annotations:
+    github.com/project-slug: 'corvus-dotnet/corvus.deployment'
+  links: []
+spec:
+  type: library
+  lifecycle: production
+  owner: endjin
+  system: powershell
+  dependsOn: []
+  providesApis: []
