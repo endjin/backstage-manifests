@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: index-all
+  description: The collection of all endjin catalog manifests
+spec:
+  targets:
+    - ./all-apis.yaml
+    - ./all-components.yaml
+    - ./all-powershell.yaml
+    - ./all-processes.yaml
+    - ./all-systems.yaml

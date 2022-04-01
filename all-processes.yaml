@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: processes
+  description: A collection of endjin delivery processes
+spec:
+  targets:
+    - ./processes/insight-discovery.yaml

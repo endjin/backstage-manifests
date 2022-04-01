@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: insight-discovery
+  description: Workshop to better understand which the most impactful insights.
+  links:
+  - url: https://endjin.com/what-we-think/talks/how-to-define-business-requirements-for-a-successful-cloud-data-and-analytics-project.html
+    title: blog
+  - url: https://endjin.sharepoint.com/endjin/_layouts/15/Doc.aspx?sourcedoc=%7B2DE37C17-3957-48E1-8B83-F16C8CFC9C3A%7D&file=Discovery%20Workshop%20-%20Evolution%202.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1
+    title: slide deck
+spec:
+  type: library
+  lifecycle: production
+  owner: endjin
+  system: mdp
+  dependsOn: []
+  providesApis: []

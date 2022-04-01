@@ -10,7 +10,7 @@ spec:
   type: library
   lifecycle: production
   owner: endjin
-  system: none
+  system: mdp
   dependsOn:
   - component:corvus-deployment
   providesApis: []

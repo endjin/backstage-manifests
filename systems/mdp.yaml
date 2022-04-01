@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: mdp
+  description: Services for building modern data platforms
+spec:
+  owner: endjin
+  domain: solutions
