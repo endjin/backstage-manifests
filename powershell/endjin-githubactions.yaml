@@ -10,6 +10,6 @@ spec:
   type: library
   lifecycle: production
   owner: endjin
-  system: powershell
+  system: none
   dependsOn: []
   providesApis: []

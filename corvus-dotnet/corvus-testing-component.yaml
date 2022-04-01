@@ -12,6 +12,6 @@ spec:
   type: library
   lifecycle: production
   owner: endjin
-  system: corvus
+  system: none
   dependsOn: []
   providesApis: []

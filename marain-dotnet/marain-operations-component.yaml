@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: marain-operations
+  description: API to support operations in Marain.
+  annotations:
+    github.com/project-slug: 'marain-dotnet/marain.operations'
+  links: []
+spec:
+  type: service
+  lifecycle: production
+  owner: endjin
+  system: marain
+  dependsOn:
+  - component:corvus-testing
+  - api:marain-tenancy
+  providesApis:
+  - marain-operations-control-api
+  - marain-operations-status-api

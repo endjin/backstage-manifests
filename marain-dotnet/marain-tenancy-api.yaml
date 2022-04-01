@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: marain-tenancy
-  description: Marain Tenancy
+  description: Marain Tenancy Service
   annotations:
     github.com/project-slug: 'marain-dotnet/marain.tenancy'
 spec:
@@ -10,16 +10,5 @@ spec:
   lifecycle: production
   owner: endjin
   system: marain
-  definition: |
-    openapi: "3.0.0"
-    info:
-      version: 1.0.0
-      title: Placeholder Tenancy API spec
-      license:
-        name: MIT
-    servers:
-      - url: http://tenancy.marain.io/v1
-    paths:
-      /tenants:
-        get:
-          summary: List all tenants
+  definition:
+    $text: https://github.com/marain-dotnet/Marain.Tenancy/blob/main/Solutions/Marain.Tenancy.OpenApi.Service/Marain/Tenancy/OpenApi/TenancyServices.yaml

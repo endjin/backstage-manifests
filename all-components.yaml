@@ -7,3 +7,5 @@ spec:
   targets:
     - ./corvus-dotnet/corvus-testing-component.yaml
     - ./marain-dotnet/marain-tenancy-component.yaml
+    - ./marain-dotnet/marain-operations-component.yaml
+    - ./marain-dotnet/marain-workflow-component.yaml

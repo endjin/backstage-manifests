@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: marain-workflow
+  description: Marain Workflow Service
+  annotations:
+    github.com/project-slug: 'marain-dotnet/marain.workflow'
+spec:
+  type: openapi
+  lifecycle: production
+  owner: endjin
+  system: marain
+  definition:
+    $text: https://github.com/marain-dotnet/Marain.Workflow/blob/master/Solutions/Marain.Workflow.Api.Services/Marain/Workflows/Api/Services/EngineService.yaml

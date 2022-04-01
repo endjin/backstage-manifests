@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: marain-operations-control
+  description: Marain Operations Control Service
+  annotations:
+    github.com/project-slug: 'marain-dotnet/marain.operations'
+spec:
+  type: openapi
+  lifecycle: production
+  owner: endjin
+  system: marain
+  definition:
+    $text: https://github.com/marain-dotnet/Marain.Operations/blob/master/Solutions/Marain.Operations.OpenApi/Marain/Operations/OpenApi/OperationsControl.yaml

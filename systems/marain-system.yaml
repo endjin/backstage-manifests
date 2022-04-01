@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: marain
+  description: Services for building multi-tenant systems
+spec:
+  owner: endjin
+  domain: solutions

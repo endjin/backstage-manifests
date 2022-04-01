@@ -6,11 +6,12 @@ metadata:
   annotations:
     github.com/project-slug: 'endjin/endjin-codeops'
   links:
-  - https://endjin.com/blog/2020/11/does-your-github-repo-need-code-operations.html
+  - url: https://endjin.com/blog/2020/11/does-your-github-repo-need-code-operations.html
+    title: blog post
 spec:
   type: library
   lifecycle: production
   owner: endjin
-  system: powershell
+  system: none
   dependsOn: []
   providesApis: []
