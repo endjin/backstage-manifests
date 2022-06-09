@@ -5,6 +5,9 @@ metadata:
   description: API to support Tenancy in Marain.
   annotations:
     github.com/project-slug: 'marain-dotnet/marain.tenancy'
+    backstage.io/adr-location: 'https://github.com/marain-dotnet/Marain.Tenancy/tree/main/docs/adr'
+    dev.azure.com/project: Marain.Tenancy
+    dev.azure.com/build-definition: CI
   links: []
 spec:
   type: service

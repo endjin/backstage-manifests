@@ -5,6 +5,7 @@ metadata:
   description: API to support Workflow in Marain.
   annotations:
     github.com/project-slug: 'marain-dotnet/marain.workflow'
+    backstage.io/adr-location: 'https://github.com/marain-dotnet/Marain.Workflow/tree/master/docs/adr'
   links: []
 spec:
   type: service
