@@ -9,7 +9,7 @@ metadata:
 spec:
   type: library
   lifecycle: production
-  owner: endjin
+  owner: endjineers
   system: mdp
   dependsOn:
   - component:corvus-deployment

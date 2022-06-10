@@ -4,5 +4,5 @@ metadata:
   name: marain
   description: Services for building multi-tenant systems
 spec:
-  owner: endjin
+  owner: endjineers
   domain: solutions

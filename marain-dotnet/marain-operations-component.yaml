@@ -9,7 +9,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: endjin
+  owner: endjineers
   system: marain
   dependsOn:
   - component:corvus-testing

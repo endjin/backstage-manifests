@@ -8,7 +8,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: endjin
+  owner: endjineers
   system: marain
   definition:
     $text: https://github.com/marain-dotnet/Marain.Operations/blob/master/Solutions/Marain.Operations.OpenApi/Marain/Operations/OpenApi/OperationsStatus.yaml
