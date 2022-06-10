@@ -8,4 +8,4 @@ spec:
     - ./marain-dotnet/marain-tenancy-api.yaml
     - ./marain-dotnet/marain-operations-status-api.yaml
     - ./marain-dotnet/marain-operations-control-api.yaml
-    - ./marain-dotnet/marain-workflow-api.yaml
+    - ./marain-dotnet/marain-workflow-engine-api.yaml
