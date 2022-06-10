@@ -5,6 +5,8 @@ metadata:
   description: API to support operations in Marain.
   annotations:
     github.com/project-slug: 'marain-dotnet/marain.operations'
+    dev.azure.com/project: Marain.Operations
+    dev.azure.com/build-definition: CI
   links: []
 spec:
   type: service
