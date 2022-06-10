@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: marain-operations-control
-  description: Marain Operations Control Service
+  name: marain-operations-control-api
+  description: Marain Operations Control API
   annotations:
     github.com/project-slug: 'marain-dotnet/marain.operations'
 spec:

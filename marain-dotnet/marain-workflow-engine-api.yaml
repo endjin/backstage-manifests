@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: marain-workflow
-  description: Marain Workflow Service
+  name: marain-workflow-engine-api
+  description: Marain Workflow Engine API
   annotations:
     github.com/project-slug: 'marain-dotnet/marain.workflow'
 spec:
