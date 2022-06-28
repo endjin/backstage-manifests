@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: <%= $ApiName %>
+  description: <%= $ApiDescription %>
+  annotations:
+    github.com/project-slug: '<%= $GitHubOwnerRepo %>'
+spec:
+  type: openapi
+  lifecycle: production
+  owner: endjineers
+  system: <%= $SystemName %>
+  definition:
+    $text: <%= $OpenApiSpecUri %>
