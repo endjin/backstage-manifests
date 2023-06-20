@@ -5,6 +5,7 @@ metadata:
   description: Provides a library of useful testing extensions, primarily focussed on SpecFlow operations.
   annotations:
     github.com/project-slug: 'corvus-dotnet/corvus.testing'
+    endjin.com/imm-location: 'https://github.com/corvus-dotnet/Corvus.Testing/blob/main/imm.yaml'
   links:
   - url: https://endjin.com/blog/2020/09/streamline-dependency-management-with-nuget-meta-packages.html
     title: Meta Packages

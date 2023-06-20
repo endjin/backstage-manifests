@@ -5,6 +5,7 @@ metadata:
   description: API to support operations in Marain.
   annotations:
     github.com/project-slug: 'marain-dotnet/marain.operations'
+    endjin.com/imm-location: https://github.com/marain-dotnet/Marain.Operations/blob/master/imm.yaml
     dev.azure.com/project: Marain.Operations
     dev.azure.com/build-definition: CI
   links: []
