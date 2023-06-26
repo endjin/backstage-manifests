@@ -10,3 +10,4 @@ spec:
     - ./all-powershell.yaml
     - ./all-processes.yaml
     - ./all-systems.yaml
+    - ./all-groups.yaml

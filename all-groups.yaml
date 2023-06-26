@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: endjineers
+  description: The endjineers team
+spec:
+  type: team
+  profile:
+    displayName: Endjineers
+  #   email: Endjineers@endjin.com
+  #   picture: 
+  # parent: ops
+  # children: [backstage, other]
+  # members: [jdoe]
