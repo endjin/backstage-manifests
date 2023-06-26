@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: 'marain-dotnet/marain.tenancy'
     backstage.io/adr-location: 'https://github.com/marain-dotnet/Marain.Tenancy/tree/main/docs/adr'
+    endjin.com/imm-location: https://github.com/marain-dotnet/Marain.Tenancy/blob/main/imm.yaml
     dev.azure.com/project: Marain.Tenancy
     dev.azure.com/build-definition: CI
   links: []
