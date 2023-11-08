@@ -9,6 +9,7 @@ metadata:
     endjin.com/imm-location: https://github.com/marain-dotnet/Marain.Workflow/blob/master/imm.yaml
     dev.azure.com/project: Marain.Workflow
     dev.azure.com/build-definition: CI
+    endjin.com/sbom-repo-name: Marain.Workflow
   links: []
 spec:
   type: service

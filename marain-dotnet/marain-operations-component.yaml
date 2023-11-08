@@ -8,6 +8,7 @@ metadata:
     endjin.com/imm-location: https://github.com/marain-dotnet/Marain.Operations/blob/master/imm.yaml
     dev.azure.com/project: Marain.Operations
     dev.azure.com/build-definition: CI
+    endjin.com/sbom-repo-name: Marain.Operations
   links: []
 spec:
   type: service
